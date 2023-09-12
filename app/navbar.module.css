@@ -1,0 +1,17 @@
+#navbar {
+	padding: 50px;
+	border: 1px solid black;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+#navbar h1 {
+	margin-bottom: 10px;
+
+}
+#navbar p {
+	margin-bottom: 30px;
+
+}

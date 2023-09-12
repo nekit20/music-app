@@ -1,0 +1,15 @@
+#searchBlock {
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+}
+#searchBlock h2{
+	margin-bottom: 30px;
+
+}
+#searchInnerBlock {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+	margin-bottom: 50px;
+}

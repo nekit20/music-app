@@ -1,0 +1,32 @@
+#input {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid black;
+
+}
+#searchDiv {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	margin: auto;
+	justify-content: center;
+}
+#searchDiv a {
+	width: 80%;
+}
+#searchDiv button {
+	background: none;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	transition: all 0.3s;
+	width: 80%;
+}
+#searchDiv button:hover {
+	background: black;
+	color: white;
+	cursor: pointer;
+	
+}

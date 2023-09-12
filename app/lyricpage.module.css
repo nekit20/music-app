@@ -1,0 +1,58 @@
+#lyricBlock {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+#lyricBlock #headerLyric {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	
+}
+#lyricBlock #headerLyric span {
+	font-weight: bold;
+}
+#lyricBlock #info {
+	margin: auto;
+	margin-bottom: 50px;
+	width: 50%;
+}
+#lyricBlock button {
+	background: none;
+	border: 1px solid black;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	float: right;
+	transition: all 0.3s;
+}
+#lyricBlock button:hover {
+	cursor: pointer;
+	background: black;
+	color: white;
+}
+#loading {
+	width: 20%;
+	position: absolute;
+	margin: auto;
+
+	left: 50%;
+	top: 50%;
+	
+}
+#img {
+	animation: rotate 3s infinite linear 1s;
+
+
+}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
